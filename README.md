@@ -10,6 +10,14 @@ To install i3 with a minimum of utility, you can run the following command:
 sudo dnf install i3 i3status i3lock
 ```
 
+### Status Bar
+
+To have a rich status bar and fully customizable, I use the package ``i3status-rs``
+
+```bash
+sudo dnf install i3status-rs
+```
+
 ### Application launcher
 
 I am using ``rofi`` as an aplication launcher.
