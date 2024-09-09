@@ -2,7 +2,21 @@
 
 ## Necessary Packages
 
+### i3wm
+
+To install i3 with a minimum of utility, you can run the following command:
+
+```bash
+sudo dnf install i3 i3status i3lock
+```
+
 ### Application launcher
+
+I am using ``rofi`` as an aplication launcher.
+
+```bash
+sudo dnf install rofi
+```
 
 The transparent background of the launcher window is assured by picom, a compositor.
 
